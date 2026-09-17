@@ -20,6 +20,12 @@
         <label>Nombre</label>
         <input type="text" name="nombre" required />
 
+        <label>Email</label>
+        <input type="text" name="email" required />
+
+        <label>Categoria</label>
+        <select
+
         <button class="btn" type="submit">Guardar</button>
         <a class="btn btn-secondary" href="${pageContext.request.contextPath}/persona">Volver</a>
       </form>
