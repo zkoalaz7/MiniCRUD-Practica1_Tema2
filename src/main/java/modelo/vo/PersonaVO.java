@@ -3,7 +3,9 @@ package modelo.vo;
 public class PersonaVO {
     private int cod;
     private String nombre;
-
+    private double sueldo;
+    private String email;
+    
     public PersonaVO() {
 
     }
@@ -28,10 +30,18 @@ public class PersonaVO {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+    
+    public double getSueldo() {
+        return sueldo;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 
     @Override
     public String toString() {
-        return "PersonaVO{" + "cod=" + cod + ", nombre=" + nombre + '}';
+        return "PersonaVO{" + "cod=" + cod + ", nombre=" + nombre + ", sueldo=" + sueldo + ", email=" + email +'}';
     }
 
 }
