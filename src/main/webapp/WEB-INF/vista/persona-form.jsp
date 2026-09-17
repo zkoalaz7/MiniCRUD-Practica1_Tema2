@@ -23,8 +23,8 @@
         <label>Email</label>
         <input type="text" name="email" required />
 
-        <label>Categoria</label>
-        <select
+        <label>Sueldo</label>
+        <input type="number" name"sueldo" required />
 
         <button class="btn" type="submit">Guardar</button>
         <a class="btn btn-secondary" href="${pageContext.request.contextPath}/persona">Volver</a>
