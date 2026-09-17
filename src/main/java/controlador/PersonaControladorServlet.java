@@ -11,7 +11,8 @@ import modelo.vo.PersonaVO;
 @WebServlet("/persona")
 public class PersonaControladorServlet extends HttpServlet {
     private final PersonaDAO dao = new PersonaDAO();
-
+    private double sueldo;
+    private String email;
     // ======================== GET ========================
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -36,6 +37,12 @@ public class PersonaControladorServlet extends HttpServlet {
                 break;
         }
     }
+    public double getSueldo () {
+        return sueldo;
+    }
+    public String getEmail () {
+        return email;
+    ]    
 
     // ======================== POST ========================
     @Override
