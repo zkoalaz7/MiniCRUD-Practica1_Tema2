@@ -18,6 +18,8 @@
               <th>Código</th>
               <th>Nombre</th>
               <th>Acciones</th>
+              <th>Sueldo</th>
+              <th>Email</th>
             </tr>
           </thead>
           <tbody>
@@ -26,6 +28,9 @@
                 <tr>
                   <td>${p.codigo}</td>
                   <td>${p.nombre}</td>
+                  <td>${p.sueldo}</td>
+                  <td>${p.email}</td>
+
                   <td class="actions">
                     <!-- Botón Editar deshabilitado -->
                     <button
