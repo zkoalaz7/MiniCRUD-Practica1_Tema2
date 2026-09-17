@@ -20,6 +20,17 @@
         <label>Nombre</label>
         <input type="text" name="nombre" required />
 
+        <label>Categoria</label>
+          <select name="categoria" required>
+          <option value=""> seleccionar categoria</option>
+          <option value="junior"> junior</option>
+          <option value="semi-senior"> semi-senior</option>
+          <option value="senior"> senior</option>
+        </select>
+
+        <label>Email</label>
+        <input type="text" name="email" required />
+
         <button class="btn" type="submit">Guardar</button>
         <a class="btn btn-secondary" href="${pageContext.request.contextPath}/persona">Volver</a>
       </form>
